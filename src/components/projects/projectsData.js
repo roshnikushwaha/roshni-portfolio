@@ -1,0 +1,153 @@
+// export const projects = [
+//   {
+//     id: 1,
+
+//     title: "Job Portal",
+
+//     image: "/images/profile.jpg",
+
+//     description:
+//       "A complete Job Portal where Admin can manage jobs, users, applications and premium services with secure authentication.",
+
+//     tech: [
+//       "Next.js",
+//       "React",
+//       "Node.js",
+//       "MongoDB",
+//       "Tailwind",
+//       "Cloudinary",
+//     ],
+
+//     github: "#",
+
+//     live: "#",
+
+//     featured: true,
+//   },
+
+//   {
+//     id: 2,
+
+//     title: "Task Management System",
+
+//     image: "/projects/tms.jpg",
+
+//     description:
+//       "Admin Dashboard with task assignment, timer, break tracking, analytics and employee performance monitoring.",
+
+//     tech: [
+//       "React",
+//       "Node.js",
+//       "Express",
+//       "MongoDB",
+//       "JWT",
+//     ],
+
+//     github: "#",
+
+//     live: "#",
+
+//     featured: true,
+//   },
+
+//   {
+//     id: 3,
+
+//     title: "Character Bazaar",
+
+//     image: "/projects/character.jpg",
+
+//     description:
+//       "Marketplace website with watermark system, image processing and responsive user interface.",
+
+//     tech: [
+//       "React",
+//       "Node.js",
+//       "MongoDB",
+//       "Cloudinary",
+//     ],
+
+//     github: "#",
+
+//     live: "#",
+
+//     featured: true,
+//   },
+
+//   {
+//     id: 4,
+
+//     title: "Personal Portfolio",
+
+//     image: "/projects/portfolio.png",
+
+//     description:
+//       "Modern animated portfolio built using Next.js, Framer Motion and Tailwind CSS.",
+
+//     tech: [
+//       "Next.js",
+//       "Framer Motion",
+//       "Tailwind",
+//     ],
+
+//     github: "#",
+
+//     live: "#",
+
+//     featured: true,
+//   },
+// ];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Job Portal Platform",
+    image: "/images/profile.jpeg",
+    description:
+      "An enterprise-grade job board enabling recruiters to publish listings, track candidates, and process premium upgrades. Features granular RBAC authorization, resume cloud storage, and real-time dashboard analytics.",
+    tech: [
+      "Next.js 14",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Cloudinary",
+    ],
+    github: "https://github.com",
+    live: "https://example.com",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Task Management Suite",
+    image: "/projects/tms.jpg",
+    description:
+      "A comprehensive workspace productivity tool for remote teams. Integrates automated timer tracking, shift break management, employee velocity charts, and role-based performance metrics.",
+    tech: ["React.js", "Express.js", "MongoDB", "JWT Auth", "Recharts"],
+    github: "https://github.com",
+    live: "https://example.com",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "Character Bazaar Marketplace",
+    image: "/projects/character.jpg",
+    description:
+      "Digital asset e-commerce marketplace featuring automated image watermarking on image uploads, instant download delivery, tag search filtering, and cloud image processing.",
+    tech: ["React.js", "Node.js", "MongoDB", "Cloudinary SDK", "Tailwind CSS"],
+    github: "https://github.com",
+    live: "https://example.com",
+    featured: true,
+  },
+  {
+    id: 4,
+    title: "Modern Interactive Portfolio",
+    image: "/projects/portfolio.png",
+    description:
+      "Ultra-responsive developer portfolio showcasing dynamic animations, fluid dark mode theme, Framer Motion transitions, and glassmorphism UI components.",
+    tech: ["Next.js App Router", "Framer Motion", "Tailwind CSS"],
+    github: "https://github.com",
+    live: "https://example.com",
+    featured: true,
+  },
+];
