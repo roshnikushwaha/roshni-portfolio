@@ -1,13 +1,13 @@
-export const testimonials = [
+export const initialTestimonials = [
   {
     id: 1,
     name: "Alex Rivera",
     role: "Engineering Manager",
     company: "TechFlow Inc.",
     rating: 5,
-    avatar: "", // Add path if available, e.g. "/testimonials/alex.jpg"
+    avatar: "",
     feedback:
-      "Working with him was an absolute pleasure. He delivered our full-stack application ahead of schedule with immaculate code structure and outstanding UI performance.",
+      "Working with her was an absolute pleasure. She delivered our full-stack application ahead of schedule with immaculate code structure and outstanding UI performance.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const testimonials = [
     rating: 5,
     avatar: "",
     feedback:
-      "Exceptional attention to detail. His expertise in Next.js and Tailwind CSS helped us transform our legacy product into a lightning-fast modern Web app.",
+      "Exceptional attention to detail. Her expertise in Next.js and Tailwind CSS helped us transform our legacy product into a lightning-fast modern web app.",
   },
   {
     id: 3,
@@ -27,6 +27,6 @@ export const testimonials = [
     rating: 5,
     avatar: "",
     feedback:
-      "A rare developer who understands both back-end scalability and top-tier design polish. His work on our task dashboard significantly boosted user engagement.",
+      "A rare developer who understands both back-end scalability and top-tier design polish. Her work on our dashboard significantly boosted user engagement.",
   },
 ];

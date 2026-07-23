@@ -100,40 +100,7 @@ duration-300
           <ArrowRight size={20} className="shrink-0" />
         </motion.a>
 
-        <motion.a
-          whileHover={{
-            scale: 1.08,
-          }}
-          whileTap={{
-            scale: 0.95,
-          }}
-          href="/resume/resume.pdf"
-          className="
-inline-flex
-items-center
-justify-center
-gap-3
-
-w-[180px]
-h-[56px]
-
-rounded-xl
-border
-border-blue-500
-
-text-white
-
-text-[17px]
-font-semibold
-
-hover:bg-blue-500/10
-transition-all
-duration-300
-"
-        >
-          Resume
-          <Download size={20} className="shrink-0" />
-        </motion.a>
+       
       </div>
     </motion.div>
   );

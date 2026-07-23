@@ -65,41 +65,7 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* Resume Button */}
-          <div className="hidden md:block">
-  <a
-    href="/resume/resume.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="
-inline-flex
-items-center
-justify-center
-
-h-12
-min-w-[130px]
-
-px-7
-
-rounded-full
-
-bg-blue-600
-text-white
-font-semibold
-text-[15px]
-
-shadow-lg
-shadow-blue-500/20
-
-hover:bg-blue-700
-
-transition-all
-duration-300
-"
-  >
-    Resume
-  </a>
-</div>
+          
 
           {/* Mobile Menu Button */}
           <button

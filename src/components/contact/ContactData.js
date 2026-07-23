@@ -38,7 +38,7 @@ export const socialLinks = [
   {
     id: 1,
     icon: FaGithub,
-    link: "https://github.com/your-github",
+    link: "https://github.com/roshnikushwaha",
   },
   {
     id: 2,
@@ -48,6 +48,6 @@ export const socialLinks = [
   {
     id: 3,
     icon: FaInstagram,
-    link: "https://instagram.com/your-instagram",
+    link: "https://www.instagram.com/roshniwebdeveloper_15?igsh=MWh1eXg5bDFtbTQycg==",
   },
 ];

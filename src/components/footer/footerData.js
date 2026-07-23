@@ -16,7 +16,7 @@ export const socials = [
   {
     id: 1,
     icon: FaGithub,
-    link: "https://github.com/yourusername",
+    link: "https://github.com/roshnikushwaha",
   },
   {
     id: 2,
@@ -26,6 +26,6 @@ export const socials = [
   {
     id: 3,
     icon: FaInstagram,
-    link: "https://instagram.com/yourusername",
+    link: "https://www.instagram.com/roshniwebdeveloper_15?igsh=MWh1eXg5bDFtbTQycg==",
   },
 ];

@@ -102,7 +102,7 @@ export const projects = [
   {
     id: 1,
     title: "Job Portal Platform",
-    image: "/images/profile.jpeg",
+    image: "/projects/job-portal.PNG",
     description:
       "An enterprise-grade job board enabling recruiters to publish listings, track candidates, and process premium upgrades. Features granular RBAC authorization, resume cloud storage, and real-time dashboard analytics.",
     tech: [
@@ -113,40 +113,19 @@ export const projects = [
       "Tailwind CSS",
       "Cloudinary",
     ],
-    github: "https://github.com",
-    live: "https://example.com",
+    github: "https://github.com/roshnikushwaha/job-portal",
+    live: "https://job-portal-uxyy.vercel.app/",
     featured: true,
   },
+ 
   {
     id: 2,
-    title: "Task Management Suite",
-    image: "/projects/tms.jpg",
-    description:
-      "A comprehensive workspace productivity tool for remote teams. Integrates automated timer tracking, shift break management, employee velocity charts, and role-based performance metrics.",
-    tech: ["React.js", "Express.js", "MongoDB", "JWT Auth", "Recharts"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: true,
-  },
-  {
-    id: 3,
-    title: "Character Bazaar Marketplace",
-    image: "/projects/character.jpg",
-    description:
-      "Digital asset e-commerce marketplace featuring automated image watermarking on image uploads, instant download delivery, tag search filtering, and cloud image processing.",
-    tech: ["React.js", "Node.js", "MongoDB", "Cloudinary SDK", "Tailwind CSS"],
-    github: "https://github.com",
-    live: "https://example.com",
-    featured: true,
-  },
-  {
-    id: 4,
     title: "Modern Interactive Portfolio",
-    image: "/projects/portfolio.png",
+    image: "/projects/portfolio.PNG",
     description:
       "Ultra-responsive developer portfolio showcasing dynamic animations, fluid dark mode theme, Framer Motion transitions, and glassmorphism UI components.",
     tech: ["Next.js App Router", "Framer Motion", "Tailwind CSS"],
-    github: "https://github.com",
+    github: "https://github.com/roshnikushwaha/roshni-portfolio",
     live: "https://example.com",
     featured: true,
   },
