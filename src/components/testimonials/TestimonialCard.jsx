@@ -35,7 +35,7 @@ export default function TestimonialCard({ item, index }) {
       </div>
 
       {/* Client Profile Info */}
-      <div className="flex items-center gap-4 pt-6 border-t border-slate-800/80">
+      <div className="flex items-center gap-4 pt-6 border-t border-slate-800/80 mt-5">
         <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-slate-700 group-hover:border-cyan-400 transition-colors duration-300 shrink-0 bg-gradient-to-tr from-cyan-500/20 to-blue-600/20 flex items-center justify-center font-bold text-cyan-300">
           {item.avatar ? (
             <Image

@@ -70,11 +70,15 @@ export default function Testimonials() {
           </span>
 
           <h2 className="text-4xl sm:text-5xl font-extrabold text-white">
-            What <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">People Say</span>
+            What{" "}
+            <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+              People Say
+            </span>
           </h2>
 
           <p className="text-slate-400 mt-4 max-w-2xl text-base leading-relaxed">
-            Direct feedback from engineering leaders, product owners, and founders I’ve collaborated with.
+            Direct feedback from engineering leaders, product owners, and
+            founders I’ve collaborated with.
           </p>
         </motion.div>
 
@@ -100,12 +104,25 @@ export default function Testimonials() {
 
         {/* Clean Center Action Button */}
         <div className="mt-16 flex flex-col items-center justify-center">
-          <button
-            onClick={() => setIsModalOpen(true)}
-            className="px-8 py-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-bold text-base transition-all duration-300 shadow-[0_0_25px_rgba(6,182,212,0.3)] hover:shadow-[0_0_35px_rgba(6,182,212,0.5)] active:scale-95"
+          {/* Clean Center Action Button */}
+          <div
+            style={{ marginTop: "24px" }}
+            className="flex justify-center items-center w-full"
           >
-            Write a Review
-          </button>
+            <button
+              onClick={() => setIsModalOpen(true)}
+              style={{
+                padding: "16px 36px",
+                marginTop: "20px",
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              className="rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-bold text-base transition-all duration-300 shadow-[0_0_25px_rgba(6,182,212,0.3)] hover:shadow-[0_0_35px_rgba(6,182,212,0.5)] active:scale-95 cursor-pointer leading-normal"
+            >
+              Write a Review
+            </button>
+          </div>
         </div>
 
         {/* Secret Owner Access Button at Bottom Right */}

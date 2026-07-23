@@ -151,7 +151,7 @@ export default function ContactForm() {
       });
 
       if (res.ok) {
-        setStatusMsg("Message Sent Successfully 🚀");
+        setStatusMsg("Message Sent Successfully");
         setForm({
           name: "",
           email: "",
