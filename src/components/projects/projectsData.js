@@ -126,7 +126,7 @@ export const projects = [
       "Ultra-responsive developer portfolio showcasing dynamic animations, fluid dark mode theme, Framer Motion transitions, and glassmorphism UI components.",
     tech: ["Next.js App Router", "Framer Motion", "Tailwind CSS"],
     github: "https://github.com/roshnikushwaha/roshni-portfolio",
-    live: "https://example.com",
+    live: "https://roshni-portfolio-lake.vercel.app/",
     featured: true,
   },
 ];
