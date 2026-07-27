@@ -129,4 +129,20 @@ export const projects = [
     live: "https://roshni-portfolio-lake.vercel.app/",
     featured: true,
   },
+  {
+    id: 3,
+    title: "Interactive Sorry Website",
+    image: "/projects/sorry-website.PNG",
+    description:
+      "A fun and interactive apology website featuring playful animations, cute emojis, engaging button interactions, and a romantic storytelling experience designed to make saying 'Sorry' memorable.",
+    tech: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Framer Motion",
+  ],
+    github: "https://github.com/roshnikushwaha/couple-sorry",
+    live: "https://couple-sorry.vercel.app/",
+    featured: true,
+  },
 ];
