@@ -1,103 +1,3 @@
-// export const projects = [
-//   {
-//     id: 1,
-
-//     title: "Job Portal",
-
-//     image: "/images/profile.jpg",
-
-//     description:
-//       "A complete Job Portal where Admin can manage jobs, users, applications and premium services with secure authentication.",
-
-//     tech: [
-//       "Next.js",
-//       "React",
-//       "Node.js",
-//       "MongoDB",
-//       "Tailwind",
-//       "Cloudinary",
-//     ],
-
-//     github: "#",
-
-//     live: "#",
-
-//     featured: true,
-//   },
-
-//   {
-//     id: 2,
-
-//     title: "Task Management System",
-
-//     image: "/projects/tms.jpg",
-
-//     description:
-//       "Admin Dashboard with task assignment, timer, break tracking, analytics and employee performance monitoring.",
-
-//     tech: [
-//       "React",
-//       "Node.js",
-//       "Express",
-//       "MongoDB",
-//       "JWT",
-//     ],
-
-//     github: "#",
-
-//     live: "#",
-
-//     featured: true,
-//   },
-
-//   {
-//     id: 3,
-
-//     title: "Character Bazaar",
-
-//     image: "/projects/character.jpg",
-
-//     description:
-//       "Marketplace website with watermark system, image processing and responsive user interface.",
-
-//     tech: [
-//       "React",
-//       "Node.js",
-//       "MongoDB",
-//       "Cloudinary",
-//     ],
-
-//     github: "#",
-
-//     live: "#",
-
-//     featured: true,
-//   },
-
-//   {
-//     id: 4,
-
-//     title: "Personal Portfolio",
-
-//     image: "/projects/portfolio.png",
-
-//     description:
-//       "Modern animated portfolio built using Next.js, Framer Motion and Tailwind CSS.",
-
-//     tech: [
-//       "Next.js",
-//       "Framer Motion",
-//       "Tailwind",
-//     ],
-
-//     github: "#",
-
-//     live: "#",
-
-//     featured: true,
-//   },
-// ];
-
 export const projects = [
   {
     id: 1,
@@ -143,6 +43,22 @@ export const projects = [
   ],
     github: "https://github.com/roshnikushwaha/couple-sorry",
     live: "https://couple-sorry.vercel.app/",
+    featured: true,
+  },
+  {
+    id: 4,
+    title: "Luxury Bridal Makeup Portfolio",
+    image: "/projects/makeup.PNG",
+    description:
+      "A premium, elegant portfolio website for Gauri Kakas (Luxury Bridal Makeup Artist). Features an interactive customer review section with star ratings, detailed service showcase, and an aesthetic high-end UI designed to captivate clients.",
+    tech: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Framer Motion",
+  ],
+    github: "https://github.com/roshnikushwaha/makeup-artist-web",
+    live: "https://makeup-artist-web-roan.vercel.app/",
     featured: true,
   },
 ];
