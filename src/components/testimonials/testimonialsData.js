@@ -1,32 +1,32 @@
 export const initialTestimonials = [
   {
     id: 1,
-    name: "Alex Rivera",
-    role: "Engineering Manager",
-    company: "TechFlow Inc.",
+    name: "Rajesh Kumar",
+    role: "Owner",
+    company: "Furniture Store",
     rating: 5,
     avatar: "",
     feedback:
-      "Working with her was an absolute pleasure. She delivered our full-stack application ahead of schedule with immaculate code structure and outstanding UI performance.",
+      "The website looks clean and professional. Exactly what I wanted for my business.",
   },
   {
     id: 2,
-    name: "Sarah Jenkins",
-    role: "Product Owner",
-    company: "SaaSify",
+    name: "Amit Sharma",
+    role: "Owner",
+    company: "Local Business",
     rating: 5,
     avatar: "",
     feedback:
-      "Exceptional attention to detail. Her expertise in Next.js and Tailwind CSS helped us transform our legacy product into a lightning-fast modern web app.",
+      "Fast delivery and a mobile-friendly design. Happy with the overall experience.",
   },
   {
     id: 3,
-    name: "Michael Chen",
-    role: "Founder & CEO",
-    company: "Nexus Labs",
+    name: "Ankit Mehra",
+    role: "Founder",
+    company: "Small Business",
     rating: 5,
     avatar: "",
     feedback:
-      "A rare developer who understands both back-end scalability and top-tier design polish. Her work on our dashboard significantly boosted user engagement.",
+      "Simple, clean, and user-friendly. The final result matched our expectations",
   },
 ];
